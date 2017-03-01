@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 IdeasAndroid
+-->
+<resources>
+    <!-- 定义一个样式，继承android系统的对话框样式 android:style/Theme.Dialog-->
+    <style name="Theme.FloatActivity" parent="android:style/Theme.Dialog">
+        <!-- float_box为我们定义的窗口背景-->
+        <!--<item name="android:windowBackground">@drawable/float</item>-->
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">快捷助手</string>
+    <string name="description">激活可以快捷锁屏</string>
+    <string name="up">上-->%1$s</string>
+    <string name="down">下-->%1$s</string>
+    <string name="left">左-->%1$s</string>
+    <string name="right">右-->%1$s</string>
+    <string name="menu_1">菜单①-->%1$s</string>
+    <string name="menu_2">菜单②-->%1$s</string>
+    <string name="menu_3">菜单③-->%1$s</string>
+    <string name="menu_4">菜单④-->%1$s</string>
+    <string name="menu_5">菜单⑤-->%1$s</string>
+    <string name="action_setting">功能设置</string>
+    <string name="active">设备管理器激活状态-->%1$s</string>
+    <string name="over_lay">顶层显示权限-->%1$s</string>
+    <string name="status">权限状态</string>
+    <string name="status_description">为了正常使用一键锁屏,请保证以下功能正常开启：</string>
+    <string name="select_activity_tittle">正在设置位置\"%1$s\"的动作:</string>
+    <string name="uninstall">卸载</string>
+    <string name="uninstall_package">卸载快捷助手(3击)</string>
+    <string name="start_use">开启快捷之旅</string>
+    <string name="stop_use">结束快捷之旅(3击)</string>
+    <string name="grant_overlay">请先授权顶层显示权限</string>
+    <string name="remove_admin">请手动取消激活设备管理器</string>
+    <string name="granted">已授权</string>
+    <string name="not_granted">未授权</string>
+    <string name="actived">已激活</string>
+    <string name="not_actived">未激活</string>
+</resources>

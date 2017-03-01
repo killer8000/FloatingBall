@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            tools:context="com.example.ndh.floatingball.MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_setting_not_checked"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/status_description"/>
+
+                <TextView android:id="@+id/over_lay" android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/over_lay" android:textSize="18sp"/>
+                <TextView android:id="@+id/active" android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/active" android:textSize="18sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:background="#ffffff"
+                android:text="@string/status"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_setting_not_checked"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView android:id="@+id/up" android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/up"
+                          android:textSize="18sp"/>
+                <TextView android:id="@+id/down" android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/down"
+                          android:textSize="18sp"/>
+                <TextView android:id="@+id/left" android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/left"
+                          android:textSize="18sp"/>
+                <TextView android:id="@+id/right" android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/right"
+                          android:textSize="18sp"/>
+                <TextView android:id="@+id/menu_1" android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/menu_1"
+                          android:textSize="18sp"/>
+                <TextView android:id="@+id/menu_2" android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/menu_2"
+                          android:textSize="18sp"/>
+                <TextView android:id="@+id/menu_3" android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/menu_3"
+                          android:textSize="18sp"/>
+                <TextView android:id="@+id/menu_4" android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/menu_4"
+                          android:textSize="18sp"/>
+                <TextView android:id="@+id/menu_5" android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="@string/menu_5"
+                          android:textSize="18sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:background="#ffffff"
+                android:text="@string/action_setting"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_setting_not_checked"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:id="@+id/uninstall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/uninstall_package"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:background="#ffffff"
+                android:text="@string/uninstall"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </FrameLayout>
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:background="@drawable/bg_button"
+            android:text="@string/start_use"
+        />
+    </LinearLayout>
+</ScrollView>

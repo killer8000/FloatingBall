@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permissions">
+        <item>android.permission.READ_CONTACTS</item>
+        <item>android.permission.CALL_PHONE</item>
+        <item>android.permission.READ_CALENDAR</item>
+        <item>android.permission.READ_EXTERNAL_STORAGE</item>
+        <item>android.permission.READ_SMS</item>
+        <item>android.permission.CAMERA</item>
+    </string-array>
+</resources>
